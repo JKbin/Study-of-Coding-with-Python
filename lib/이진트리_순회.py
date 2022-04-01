@@ -1,4 +1,5 @@
 import sys
+# 백준 1991
 
 input = sys.stdin.readline
 
@@ -32,12 +33,13 @@ def postorder(root):
         postorder(tree[root][1])      # right
         print(root,end='')              # root
         
-    
-preorder('A')
-print()
-inorder('A')
-print()
-postorder('A')
+print(tree)
+
+# preorder('A')
+# print()
+#inorder('A')
+#print()
+#postorder('A')
 
         
         

@@ -14,7 +14,7 @@ for i in range(m):
         start += 1
        
 print(graph)
-
+print(list(map(list,zip(*graph))))
 print(list(zip(*graph)))
 
 

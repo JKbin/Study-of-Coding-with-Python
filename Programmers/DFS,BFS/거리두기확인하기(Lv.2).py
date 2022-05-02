@@ -39,7 +39,7 @@ def solution(places):
         for i in range(5):
             for j in range(5):
                 if p[i][j] == 'P':
-                    result = bfs(p, [i, j, 0])
+                    result = bfs(p, [i, j, 0])      # i,j,거리
                     if not result:
                         flag = 0
                         

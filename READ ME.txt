@@ -1,3 +1,0 @@
-BaekJoon - 백준문제풀이
-lib - 알고리즘 및 함수, library
-Programmers - 프로그래머스 카카오 문제 풀이

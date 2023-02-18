@@ -1,6 +1,12 @@
 import sys
 input = sys.stdin.readline
 
+# 시간 복잡도
+# V : 노드의 개수 
+# M : find 연산의 개수
+# 예를 들어 노드의 개수가 1,000개고 union 및 find의 연산이 100만 번 수행 된다고 하자.
+# 대략 V + MlogV 의 시간 복잡도를 갖는다.
+
 # 특정 원소가 속한 집합을 찾기
 def find_parent(parent,x):
     # 루트 노드가 아니라면, 루트 노드를 찾을 때 까지 재귀적으로 호출

@@ -1,5 +1,5 @@
 import sys
-# 백준 1991
+# BOJ 1991
 
 input = sys.stdin.readline
 

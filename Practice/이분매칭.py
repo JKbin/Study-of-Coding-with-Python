@@ -16,11 +16,6 @@ def dfs(cow_number):
         
     return False
 
-
-
-
-
-
 n, m = map(int, input().rstrip().split())
 cow = [[]for _ in range(n+1)]
 cattle_shed = [0 for _ in range(m+1)]

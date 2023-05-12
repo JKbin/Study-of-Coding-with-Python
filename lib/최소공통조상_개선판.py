@@ -69,7 +69,7 @@ def lca(a, b):
     # 이후에 부모가 찾고자 하는 조상
     return parent[a][0]
     
-dfs(1, 0)
+set_parent()
 
 m = int(input().rstrip())
 
